@@ -9,7 +9,7 @@ type ContextMap
     contextBefore::Int64
     contextAfter::Int64
     position::Int64
-    posQueue::Deque{Tuple{Int64,Float64}}
+    @compat posQueue::Deque{Tuple{Int64,Float64}}
     value::Float64
 end
 
