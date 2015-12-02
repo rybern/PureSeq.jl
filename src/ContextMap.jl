@@ -1,4 +1,5 @@
 using DataStructures
+using Compat
 
 import Base: eof, close, position
 export ContextMap, close, value, eof, advance!
